@@ -1,0 +1,27 @@
+PODS:
+  - DKCloudFramework (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - DKCloudFramework (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  DKCloudFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DKCloudFramework: eaca8771b9cb30e47ed4dd278bc8a71619664ea2
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: ef3e7b7de21f699cd27a767265324de8dda1277d
+
+COCOAPODS: 1.11.2

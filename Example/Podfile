@@ -1,9 +1,13 @@
+
+source 'https://github.com/Aaronwk/DKCloudSource'
+
 use_frameworks!
 
 platform :ios, '10.0'
 
 target 'DKCloudFramework_Example' do
-  pod 'DKCloudFramework', :path => '../'
+#  pod 'DKCloudFramework', :path => '../'
+  pod 'DKCloudFramework'
 
   target 'DKCloudFramework_Tests' do
     inherit! :search_paths
